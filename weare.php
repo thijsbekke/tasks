@@ -9,9 +9,15 @@
 session_start();
 include "vendor/autoload.php";
 
+chdir(__DIR__);
 
 $whoops = new \Whoops\Run;
-$whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
+if(php_sapi_name() !== 'cli') {
+    $whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
+}else{
+    $whoops->pushHandler(new \Whoops\Handler\PlainTextHandler);
+}
+
 $whoops->register();
 
 include_once "app/Config.php";
