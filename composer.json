@@ -1,0 +1,8 @@
+{
+    "require": {
+        "microsoft/microsoft-graph": "^1.6",
+        "league/oauth2-client": "^2.4",
+        "filp/whoops": "^2.3",
+        "simplon/mysql": "*"
+    }
+}
