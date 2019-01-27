@@ -12,6 +12,11 @@ The first goal as not adding one more project too my task list, so this is very 
 This project will count every task you created in Outlook and calculate how many task you have to complete this week. It will create a history of the number of task open each hour, day and week. This way you will see your own progress and get motivated too achieve your goal: Zero tasks at the end of the year.
 
 
+
+![screenshot1](https://github.com/thijsbekke/tasks/blob/master/img/screenshot1.png)
+
+![screenshot1](https://github.com/thijsbekke/tasks/blob/master/img/screenshot2.png)
+
 ## Installation
 
 - Create a database and execute db.sql
