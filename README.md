@@ -9,7 +9,7 @@ The first goal as not adding one more project too my task list, so this is very 
 
 
 ## So what is this ? 
-This project will count every task you created in Outlook and calculate how many task you have to complete this week. It will create a history of the number of task open each hour, day and week. This way you will see your own progress and get motivated too achieve your goal: Zero tasks at the end of the year.
+This is a POC, this project will count every task you created in Outlook and calculate how many task you have to complete this week. It will create a history of the number of task open each hour, day and week. This way you will see your own progress and get motivated too achieve your goal: Zero tasks at the end of the year.
 
 
 
